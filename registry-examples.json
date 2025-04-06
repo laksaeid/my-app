@@ -17,7 +17,7 @@
         },
         {
           "path": "./app/globals.css",
-          "target": "./app/globals.css",
+          "target": "app/globals.css",
           "type": "registry:theme"
         }
       ],
