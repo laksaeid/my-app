@@ -12,8 +12,8 @@
           "type": "registry:component"
         },
         {
-          "path": "registry/ui/button.tsx",
-          "type": "registry:ui"
+          "path": "components/ui/button.tsx",
+          "type": "registry:component"
         }
       ]
     }

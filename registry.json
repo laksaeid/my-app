@@ -5,13 +5,13 @@
   "items": [
     {
       "name": "button",
-      "type": "registry:ui",
       "title": "nilva button",
+      "type": "registry:component",
       "dependencies": ["class-variance-authority", "@radix-ui/react-slot"],
       "files": [
         {
-          "path": "registry/ui/button.tsx",
-          "type": "registry:ui"
+          "path": "components/ui/button.tsx",
+          "type": "registry:component"
         }
       ]
     }
