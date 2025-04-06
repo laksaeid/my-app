@@ -1,5 +1,5 @@
 import { OpenInV0Button } from "@/components/open-in-v0-button";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/registry/ui/button";
 
 export default function Home() {
   return (

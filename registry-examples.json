@@ -9,11 +9,11 @@
       "registryDependencies": ["button"],
       "files": [
         {
-          "path": "registry/example/button-demo.tsx",
+          "path": "src/registry/example/button-demo.tsx",
           "type": "registry:component"
         },
         {
-          "path": "src/components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx",
           "type": "registry:component"
         }
       ]

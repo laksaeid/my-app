@@ -10,7 +10,7 @@
       "dependencies": ["class-variance-authority", "@radix-ui/react-slot"],
       "files": [
         {
-          "path": "src/components/ui/button.tsx",
+          "path": "src/registry/ui/button.tsx",
           "type": "registry:component"
         }
       ]

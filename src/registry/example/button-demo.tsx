@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
 import React from "react";
+import { Button } from "@/registry/ui/button";
 
 const ButtonDemo = () => {
   return <Button>ButtonDemo</Button>;
