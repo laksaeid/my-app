@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "acme",
+  "homepage": "https://acme.com",
+  "items": [
+    {
+      "name": "button",
+      "type": "registry:component",
+      "title": "nilva button",
+      "dependencies": ["class-variance-authority", "@radix-ui/react-slot"],
+      "files": [
+        {
+          "path": "src/components/ui/button.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}
