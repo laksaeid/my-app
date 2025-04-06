@@ -12,7 +12,15 @@
           "path": "registry/example/button-demo.tsx",
           "type": "registry:component"
         }
-      ]
+      ],
+      "cssVars": {
+        "light": {
+          "background": "0°, 100%, 50%, 1"
+        },
+        "dark": {
+          "background": "0°, 100%, 79%, 1"
+        }
+      }
     }
   ]
 }

@@ -11,5 +11,13 @@
       "content": "import { Button } from \"@/components/ui/button\";\r\nimport React from \"react\";\r\n\r\nconst ButtonDemo = () => {\r\n  return <Button>ButtonDemo</Button>;\r\n};\r\n\r\nexport default ButtonDemo;\r\n",
       "type": "registry:component"
     }
-  ]
+  ],
+  "cssVars": {
+    "light": {
+      "background": "0°, 100%, 50%, 1"
+    },
+    "dark": {
+      "background": "0°, 100%, 79%, 1"
+    }
+  }
 }
