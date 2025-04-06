@@ -13,12 +13,11 @@
           "type": "registry:component"
         }
       ],
-      "cssVars": {
-        "light": {
-          "background": "0°, 100%, 50%, 1"
-        },
-        "dark": {
-          "background": "0°, 100%, 79%, 1"
+      "tailwind": {
+        "config": {
+          "theme": {
+            "backgroundColor": "0°, 100%, 50%, 1"
+          }
         }
       }
     }
