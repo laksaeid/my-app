@@ -12,6 +12,10 @@
         {
           "path": "components/ui/button.tsx",
           "type": "registry:component"
+        },
+        {
+          "path": "app/globals.css",
+          "type": "registry:theme"
         }
       ],
       "cssVars": {
