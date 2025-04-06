@@ -15,7 +15,7 @@
   "tailwind": {
     "config": {
       "theme": {
-        "backgroundColor": "0°, 100%, 50%, 1"
+        "backgroundColor": "0, 100%, 50%, 1"
       }
     }
   }
