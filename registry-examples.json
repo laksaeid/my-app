@@ -16,7 +16,8 @@
           "type": "registry:component"
         },
         {
-          "path": "app/globals.css",
+          "path": "./app/globals.css",
+          "target": "./app/globals.css",
           "type": "registry:theme"
         }
       ],
