@@ -8,7 +8,7 @@ export default function Home() {
 
       <div className="relative flex min-h-96 w-2/5 items-center justify-center rounded-lg border">
         <OpenInV0Button
-          name="button"
+          name="button-demo"
           className="absolute right-1 top-1 h-14 w-20"
         />
 

@@ -2,9 +2,6 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-demo",
   "type": "registry:component",
-  "registryDependencies": [
-    "button"
-  ],
   "files": [
     {
       "path": "registry/example/button-demo.tsx",
