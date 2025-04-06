@@ -11,15 +11,12 @@
         {
           "path": "registry/example/button-demo.tsx",
           "type": "registry:component"
+        },
+        {
+          "path": "src/components/ui/button.tsx",
+          "type": "registry:component"
         }
-      ],
-      "tailwind": {
-        "config": {
-          "theme": {
-            "backgroundColor": "0, 100%, 50%, 1"
-          }
-        }
-      }
+      ]
     }
   ]
 }
