@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "nilva kit",
+  "homepage": "https://nilva-uikit.darkube.app",
+  "items": [
+    {
+      "name": "button-demo",
+      "type": "registry:component",
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "registry/example/button-demo.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}

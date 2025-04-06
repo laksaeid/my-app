@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "button-demo",
+  "type": "registry:component",
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/example/button-demo.tsx",
+      "content": "import { Button } from \"@/components/ui/button\";\r\nimport React from \"react\";\r\n\r\nconst ButtonDemo = () => {\r\n  return <Button>ButtonDemo</Button>;\r\n};\r\n\r\nexport default ButtonDemo;\r\n",
+      "type": "registry:component"
+    }
+  ]
+}
