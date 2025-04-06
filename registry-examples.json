@@ -15,7 +15,15 @@
           "path": "components/ui/button.tsx",
           "type": "registry:component"
         }
-      ]
+      ],
+      "cssVars": {
+        "light": {
+          "primary": "blue"
+        },
+        "dark": {
+          "primary": "blue"
+        }
+      }
     }
   ]
 }
