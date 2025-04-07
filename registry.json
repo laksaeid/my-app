@@ -4,6 +4,39 @@
   "homepage": "https://acme.com",
   "items": [
     {
+      "name": "data-table",
+      "type": "registry:block",
+      "title": "data-table",
+      "registryDependencies": ["table"],
+      "dependencies": ["@tanstack/react-table"],
+      "files": [
+        {
+          "path": "components/ui/table.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/data-table/index.tsx",
+          "type": "registry:component",
+          "target": "components/ui/data-table/index.tsx"
+        },
+        {
+          "path": "components/data-table/data-table-view-options/index.tsx",
+          "type": "registry:component",
+          "target": "components/ui/data-table/data-table-view-options/index.tsx"
+        },
+        {
+          "path": "components/data-table/pagination/index.tsx",
+          "type": "registry:component",
+          "target": "components/ui/data-table/pagination/index.tsx"
+        },
+        {
+          "path": "components/data-table/sortComponent/index.tsx",
+          "type": "registry:component",
+          "target": "components/ui/data-table/sortComponent/index.tsx"
+        }
+      ]
+    },
+    {
       "name": "button",
       "title": "nilva button",
       "type": "registry:component",
