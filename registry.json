@@ -7,7 +7,13 @@
       "name": "data-table",
       "type": "registry:block",
       "title": "data-table",
-      "registryDependencies": ["table"],
+      "registryDependencies": [
+        "table",
+        "input",
+        "button",
+        "dropdownMenu",
+        "select"
+      ],
       "dependencies": ["@tanstack/react-table"],
       "files": [
         {
@@ -22,17 +28,17 @@
         {
           "path": "components/data-table/data-table-view-options/index.tsx",
           "type": "registry:component",
-          "target": "components/ui/data-table/data-table-view-options/index.tsx"
+          "target": "components/ui/data-table/dataTableViewOptions.tsx"
         },
         {
           "path": "components/data-table/pagination/index.tsx",
           "type": "registry:component",
-          "target": "components/ui/data-table/pagination/index.tsx"
+          "target": "components/ui/data-table/Pagination.tsx"
         },
         {
           "path": "components/data-table/sortComponent/index.tsx",
           "type": "registry:component",
-          "target": "components/ui/data-table/sortComponent/index.tsx"
+          "target": "components/ui/data-table/SortComponent.tsx"
         }
       ]
     },
