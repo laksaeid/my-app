@@ -11,7 +11,7 @@
         "table",
         "input",
         "button",
-        "dropdownMenu",
+        "dropdown-menu",
         "select"
       ],
       "dependencies": ["@tanstack/react-table"],
