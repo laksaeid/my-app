@@ -10,7 +10,7 @@
     "table",
     "input",
     "button",
-    "dropdownMenu",
+    "dropdown-menu",
     "select"
   ],
   "files": [
