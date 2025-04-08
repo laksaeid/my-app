@@ -22,8 +22,8 @@ import {
   VisibilityState,
 } from "@tanstack/react-table";
 import { JSX, useState } from "react";
-import { DataTableViewOptions } from "./data-table-view-options";
-import { DataTablePagination } from "./pagination";
+import { DataTableViewOptions } from "./dataTableViewOptions";
+import { DataTablePagination } from "./dataTablePagination";
 
 type DataTableProps<TData, TValue> = {
   columns: ColumnDef<TData, TValue>[];
