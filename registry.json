@@ -26,19 +26,19 @@
           "target": "components/ui/data-table/index.tsx"
         },
         {
-          "path": "components/data-table/data-table-view-options/index.tsx",
+          "path": "components/data-table/dataTableViewOptions.tsx",
           "type": "registry:component",
           "target": "components/ui/data-table/dataTableViewOptions.tsx"
         },
         {
-          "path": "components/data-table/pagination/index.tsx",
+          "path": "components/data-table/dataTablePagination.tsx",
           "type": "registry:component",
-          "target": "components/ui/data-table/Pagination.tsx"
+          "target": "components/ui/data-table/dataTablePagination.tsx"
         },
         {
-          "path": "components/data-table/sortComponent/index.tsx",
+          "path": "components/data-table/dataTableSortComponent.tsx",
           "type": "registry:component",
-          "target": "components/ui/data-table/SortComponent.tsx"
+          "target": "components/ui/data-table/dataTableSortComponent.tsx"
         }
       ]
     },
