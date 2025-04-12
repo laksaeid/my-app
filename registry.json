@@ -62,6 +62,36 @@
           "primary": "oklch(0.646 0.222 41.116)"
         }
       }
+    },
+    {
+      "name": "theme-toggle",
+      "type": "registry:component",
+      "title": "Theme toggle",
+      "description": "A nilva kit Theme toggle component.",
+      "registryDependencies": ["select"],
+      "dependencies": ["next-themes", "@radix-ui/react-select", "lucide-react"],
+      "files": [
+        {
+          "path": "components/ui/theme-toggle.tsx",
+          "type": "registry:component",
+          "target": "components/ui/theme-toggle.tsx"
+        },
+        {
+          "path": "context/theme-data-provider.tsx",
+          "type": "registry:theme",
+          "target": "context/theme-data-provider.tsx"
+        },
+        {
+          "path": "./lib/theme-colors.ts",
+          "type": "registry:file",
+          "target": "./lib/theme-colors.ts"
+        },
+        {
+          "path": "./types/theme-types.d.ts",
+          "type": "registry:file",
+          "target": "./types/theme-types.d.ts"
+        }
+      ]
     }
   ]
 }
